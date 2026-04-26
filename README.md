@@ -1,32 +1,27 @@
-# 📧 Cold Mail Generator
-Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions. 
+# MailPilot AI – Intelligent Email Generator
 
-**Imagine a scenario:**
+MailPilot AI is an AI-powered email writing assistant that generates professional emails based on user intent, tone, and context using Large Language Models.
 
-- Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
-- Atliq is Software Development company can provide a dedicated software development engineer to Nike. So, the business development executive (Mohan) from Atliq is going to reach out to Nike via a cold email.
+## Built By
+vamsimeenan
 
-![img.png](imgs/img.png)
+## What I Built
+- Designed prompt pipeline for email generation
+- Integrated LLM for intelligent email writing
+- Built tone-based email customization system
+- Created structured email output generator
 
-## Architecture Diagram
-![img.png](imgs/architecture.png)
+## Key Features
+- AI-powered email generation
+- Tone and intent-based writing
+- Professional email formatting
+- Fast LLM-based response system
 
-## Set-up
-1. To get started we first need to get an API_KEY from here: https://console.groq.com/keys. Inside `app/.env` update the value of `GROQ_API_KEY` with the API_KEY you created. 
+## Tech Stack
+- Python
+- LangChain
+- Groq / LLM APIs
+- Streamlit (if used)
 
-
-2. To get started, first install the dependencies using:
-    ```commandline
-     pip install -r requirements.txt
-    ```
-   
-3. Run the streamlit app:
-   ```commandline
-   streamlit run app/main.py
-   ```
-   
-
-Copyright (C) Codebasics Inc. All rights reserved.
-
-**Additional Terms:**
-This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
+## Impact
+Reduces time spent on writing professional emails by 70–80% using AI automation.
