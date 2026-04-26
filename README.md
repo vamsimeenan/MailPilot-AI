@@ -1,27 +1,27 @@
 # MailPilot AI – Intelligent Email Generator
 
-MailPilot AI is an AI-powered application that generates professional emails based on user input such as intent, tone, and context using Large Language Models.
+MailPilot AI is an AI-powered application that generates professional emails using Large Language Models based on user intent and tone.
 
 ## Built By
 vamsimeenan
 
 ## What I Built
-- Designed prompt engineering system for email generation
-- Integrated LLM for intelligent email writing
-- Built tone-based email customization system
-- Created structured email output pipeline
+- AI-powered email generation system
+- Prompt engineering for email writing
+- Tone-based email customization
+- Structured email output generation
 
 ## Key Features
-- AI-powered email generation
-- Tone and intent control (formal, casual, professional)
-- Structured email formatting
-- Fast LLM-based response system
+- Professional email generation
+- Tone control (formal, casual, professional)
+- Fast LLM response system
+- Clean structured output
 
 ## Tech Stack
 - Python
 - LangChain
 - Groq / LLM APIs
-- Streamlit (if used)
+- Streamlit
 
-## Impact
-Reduces time required to write professional emails by 70–80% using AI automation.
+## License
+This project is developed for educational and portfolio purposes by vamsimeenan.
